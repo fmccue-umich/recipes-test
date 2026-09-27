@@ -1,0 +1,5 @@
+<ul>
+    {% for recipe in site.data.recipe-list %}
+    <li><strong>{{ recipe.name }}</strong> has a {{ recipe.flavor }} flavor</li>
+    {% endfor %}
+</ul>
